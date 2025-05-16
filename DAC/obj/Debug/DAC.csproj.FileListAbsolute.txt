@@ -1,0 +1,9 @@
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\bin\Debug\DAC.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\bin\Debug\DAC.pdb
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\bin\Debug\BE.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\bin\Debug\BE.pdb
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\obj\Debug\DAC.csproj.AssemblyReference.cache
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\obj\Debug\DAC.csproj.CoreCompileInputs.cache
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\obj\Debug\DAC.csproj.Up2Date
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\obj\Debug\DAC.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\DAC\obj\Debug\DAC.pdb

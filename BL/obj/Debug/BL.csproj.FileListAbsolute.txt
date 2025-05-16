@@ -1,0 +1,11 @@
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\BL.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\BL.pdb
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\BE.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\DAC.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\BE.pdb
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\bin\Debug\DAC.pdb
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\obj\Debug\BL.dll
+C:\Users\viamatica\source\repos\CHUBBWebForms\BL\obj\Debug\BL.pdb
