@@ -16,6 +16,7 @@ namespace CHUBBWebForms
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            OfficeOpenXml.ExcelPackage.License.SetNonCommercialPersonal("Jorge");
         }
     }
 }

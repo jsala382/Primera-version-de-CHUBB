@@ -21,7 +21,7 @@ namespace BE.Modelos
         public string Direccion { get; set; }
         public string NumeroCelular { get; set; }
         public string CorreoElectronico { get; set; }
-        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaDeCreacion { get; set; }
         public  bool Estado { get; set; }
 
     }

@@ -10,5 +10,10 @@ namespace DAC.Repositorio
     public interface IUsuarioRepository
     {
         List<UsuariosDto> GetAllUsers();
+        UsuariosDto CreateUser(UsuariosDto userDto);
+
+        UsuariosDto UpdateUser(UsuariosDto userDto);
+        
+
     }
 }
