@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|c:\\users\\viamatica\\source\\repos\\chubbwebforms\\chubbwebforms\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\chubbwebforms\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|solutionrelative:chubbwebforms\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|c:\\users\\viamatica\\source\\repos\\chubbwebforms\\bl\\servicioimportacion\\usuarioimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|solutionrelative:bl\\servicioimportacion\\usuarioimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\dac\\repositorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|solutionrelative:dac\\repositorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\bl\\common\\validationbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,36 +23,24 @@
       "RelativeMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|solutionrelative:bl\\common\\validationresultuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\chubbwebforms\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|solutionrelative:chubbwebforms\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\dac\\repositorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|solutionrelative:dac\\repositorio\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\chubbwebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|solutionrelative:chubbwebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\dac\\repositorio\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09200183-1438-48D3-A1F7-B255C5581DCA}|DAC\\DAC.csproj|solutionrelative:dac\\repositorio\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\chubbwebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|solutionrelative:chubbwebforms\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\bl\\servicio\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|solutionrelative:bl\\servicio\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\bl\\servicio\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|solutionrelative:bl\\servicio\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\bl\\servicio\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19B4E318-096A-4434-AC05-CEC5E3AD6004}|BL\\BL.csproj|solutionrelative:bl\\servicio\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22DEC03F-5614-47B4-8DC5-FFECF9E44CBE}|BE\\BE.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\be\\modelos\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22DEC03F-5614-47B4-8DC5-FFECF9E44CBE}|BE\\BE.csproj|solutionrelative:be\\modelos\\usuariosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\chubbwebforms\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{DEE07478-DDEF-43A3-AA0F-C43DF08C7B97}|CHUBBWebForms\\CHUBBWebForms.csproj|solutionrelative:chubbwebforms\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "CHUBBWebForms\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx.cs",
-              "RelativeToolTip": "CHUBBWebForms\\Default.aspx.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAmwGMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:48:57.779Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -76,14 +59,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValidationBd.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationBd.cs",
-              "RelativeDocumentMoniker": "BL\\Common\\ValidationBd.cs",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationBd.cs",
-              "RelativeToolTip": "BL\\Common\\ValidationBd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Title": "UsuarioImportService.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\ServicioImportacion\\UsuarioImportService.cs",
+              "RelativeDocumentMoniker": "BL\\ServicioImportacion\\UsuarioImportService.cs",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\ServicioImportacion\\UsuarioImportService.cs",
+              "RelativeToolTip": "BL\\ServicioImportacion\\UsuarioImportService.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAADgv3sAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T15:02:01.565Z",
+              "WhenOpened": "2025-06-03T14:26:26.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DAC\\Repositorio\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\UsuarioRepository.cs",
+              "RelativeToolTip": "DAC\\Repositorio\\UsuarioRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAADgvy0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T13:25:17.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ValidationResultUser.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationResultUser.cs",
+              "RelativeDocumentMoniker": "BL\\Common\\ValidationResultUser.cs",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationResultUser.cs",
+              "RelativeToolTip": "BL\\Common\\ValidationResultUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T14:44:53.221Z",
               "EditorCaption": ""
             },
             {
@@ -94,83 +103,47 @@
               "RelativeDocumentMoniker": "CHUBBWebForms\\Inicio.aspx.cs",
               "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Inicio.aspx.cs",
               "RelativeToolTip": "CHUBBWebForms\\Inicio.aspx.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAowLAAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAI4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T14:15:31.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\IUsuarioRepository.cs",
-              "RelativeDocumentMoniker": "DAC\\Repositorio\\IUsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\IUsuarioRepository.cs",
-              "RelativeToolTip": "DAC\\Repositorio\\IUsuarioRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ValidationBd.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationBd.cs",
+              "RelativeDocumentMoniker": "BL\\Common\\ValidationBd.cs",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationBd.cs",
+              "RelativeToolTip": "BL\\Common\\ValidationBd.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADgv1sAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:01:44.196Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UsuarioRepository.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\UsuarioRepository.cs",
-              "RelativeDocumentMoniker": "DAC\\Repositorio\\UsuarioRepository.cs",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\UsuarioRepository.cs",
-              "RelativeToolTip": "DAC\\Repositorio\\UsuarioRepository.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAwwFMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T13:25:17.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ValidationResultUser.cs",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationResultUser.cs",
-              "RelativeDocumentMoniker": "BL\\Common\\ValidationResultUser.cs",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Common\\ValidationResultUser.cs",
-              "RelativeToolTip": "BL\\Common\\ValidationResultUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T17:00:30.523Z",
+              "WhenOpened": "2025-05-28T15:02:01.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx",
-              "RelativeDocumentMoniker": "CHUBBWebForms\\Default.aspx",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx",
-              "RelativeToolTip": "CHUBBWebForms\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-02T16:05:20.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Servicio\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "BL\\Servicio\\IUsuarioService.cs",
               "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Servicio\\IUsuarioService.cs",
               "RelativeToolTip": "BL\\Servicio\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:52:40.13Z"
+              "WhenOpened": "2025-06-03T14:44:59.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Servicio\\UsuarioService.cs",
               "RelativeDocumentMoniker": "BL\\Servicio\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BL\\Servicio\\UsuarioService.cs",
               "RelativeToolTip": "BL\\Servicio\\UsuarioService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T15:05:04.441Z"
+              "WhenOpened": "2025-06-03T14:44:57.412Z"
             },
             {
               "$type": "Document",
@@ -180,21 +153,35 @@
               "RelativeDocumentMoniker": "BE\\Modelos\\UsuariosDto.cs",
               "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\BE\\Modelos\\UsuariosDto.cs",
               "RelativeToolTip": "BE\\Modelos\\UsuariosDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wEoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:46:38.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Site.Master",
-              "RelativeDocumentMoniker": "CHUBBWebForms\\Site.Master",
-              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Site.Master",
-              "RelativeToolTip": "CHUBBWebForms\\Site.Master",
+              "DocumentIndex": 5,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx",
+              "RelativeDocumentMoniker": "CHUBBWebForms\\Default.aspx",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\CHUBBWebForms\\Default.aspx",
+              "RelativeToolTip": "CHUBBWebForms\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-26T16:28:27.593Z"
+              "WhenOpened": "2025-06-02T16:05:20.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "DAC\\Repositorio\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\viamatica\\source\\repos\\CHUBBWebForms\\DAC\\Repositorio\\IUsuarioRepository.cs",
+              "RelativeToolTip": "DAC\\Repositorio\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:01:44.196Z",
+              "EditorCaption": ""
             }
           ]
         }

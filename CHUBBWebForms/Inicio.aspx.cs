@@ -1,5 +1,7 @@
 ﻿using BL.Common;
+using BL.ServicioImportacion;
 using BL.Validation;
+using DAC.Repositorio;
 using Microsoft.Ajax.Utilities;
 using OfficeOpenXml.Drawing.Chart;
 using System;
@@ -32,102 +34,17 @@ namespace CHUBBWebForms
             {
                 if (tuArchivo.FileName.Contains(".txt"))
                 {
-                    try
+                    UsuarioImportService usuarioImportService = new UsuarioImportService();
+                    Stream fileStream = tuArchivo.PostedFile.InputStream;
+                    allRowErrors = usuarioImportService.ImportUsuarioDesdeTxt(fileStream);
+                    if(allRowErrors.Count > 0)
                     {
-                        using (StreamReader reader = new StreamReader(tuArchivo
-                       .PostedFile
-                       .InputStream))
-                        {
-                            string connBd = ConfigurationManager
-                                            .ConnectionStrings["UserConnection"]
-                                            .ConnectionString;
-                            using (SqlConnection sqlConnection = new SqlConnection(connBd))
-                            {
-                                sqlConnection.Open();
-                                int linea = 1;
-                                while (!reader.EndOfStream)
-                                {
-                                    string linea1 = reader.ReadLine();
-                                    string identificacion = linea1.Substring(0, 10);
-                                    string nombreCompleto = linea1.Substring(14, 30);
-                                    string primerNombre = linea1.Substring(44, 15);
-                                    string segundoNombre = linea1.Substring(59, 15);
-                                    string primerApellido = linea1.Substring(74, 15);
-                                    string segundoApellido = linea1.Substring(89, 15);
-                                    string fechaNacimiento = linea1.Substring(104, 10).Trim();
-                                    DateTime fechaNacimParsed;
-                                    bool fechaNacimientoValida = DateTime.TryParseExact(fechaNacimiento, "yyyyMMdd", System.Globalization.CultureInfo.InvariantCulture,
-                                                                                 System.Globalization.DateTimeStyles.None, out fechaNacimParsed);
-                                    string direccion = linea1.Substring(114, 40);
-                                    string numeroCelular = linea1.Substring(154, 15);
-                                    string correoElectronico = linea1.Substring(169, 30);
-                                    string fechaDeCreacion = linea1.Substring(199, 10).Trim();
-                                    DateTime fechaCreacionParsed;
-                                    bool fechaDeCreacionValida = DateTime.TryParseExact(fechaDeCreacion, "yyyyMMdd", System.Globalization.CultureInfo.InvariantCulture,
-                                                                                 System.Globalization.DateTimeStyles.None, out fechaCreacionParsed);
-                                    string estado = linea1.Substring(209, 8).Trim();
-                                    bool estadoParsed;
-                                    bool estadoValido;
-                                    if (estado.Equals("Activo", StringComparison.OrdinalIgnoreCase))
-                                    {
-                                        estadoParsed = true;
-                                        estadoValido = true; ;
-                                    }else if (estado.Equals("iinactivo", StringComparison.OrdinalIgnoreCase))
-                                    {
-                                        estadoParsed = false; ;
-                                        estadoValido = true;
-                                    }
-                                    else
-                                    {
-                                        estadoValido = bool.TryParse(estado, out estadoParsed);
-                                    }
-                                    ValidationResultUser currentValidationResult = validationUser.ValidationResult(identificacion,
-                                                                                                                 nombreCompleto,
-                                                                                                                 primerNombre,
-                                                                                                                 segundoNombre,
-                                                                                                                 primerApellido,
-                                                                                                                 segundoApellido,
-                                                                                                                 fechaNacimientoValida,
-                                                                                                                 direccion,
-                                                                                                                 numeroCelular,
-                                                                                                                 correoElectronico,
-                                                                                                                 fechaDeCreacionValida,
-                                                                                                                 estadoValido
-                                                                                                                 );
-
-                                        if (currentValidationResult.IsValid)
-                                        {
-                                                using (SqlCommand cmd = new SqlCommand("InsertUsuario", sqlConnection))
-                                                {
-                                                    cmd.CommandType = CommandType.StoredProcedure;
-                                                    cmd.Parameters.AddWithValue("@Identificacion", identificacion);
-                                                    cmd.Parameters.AddWithValue("@NombreCompleto", nombreCompleto);
-                                                    cmd.Parameters.AddWithValue("@PrimerNombre", primerNombre);
-                                                    cmd.Parameters.AddWithValue("@SegundoNombre", segundoNombre);
-                                                    cmd.Parameters.AddWithValue("@PrimerApellido", primerApellido);
-                                                    cmd.Parameters.AddWithValue("@SegundoApellido", segundoApellido);
-                                                    cmd.Parameters.AddWithValue("@FechaNacimiento", fechaNacimParsed);
-                                                    cmd.Parameters.AddWithValue("@Direccion", direccion);
-                                                    cmd.Parameters.AddWithValue("@NumeroCelular", numeroCelular);
-                                                    cmd.Parameters.AddWithValue("@CorreoElectronico", correoElectronico);
-                                                    cmd.Parameters.AddWithValue("@FechaDeCreacion", fechaDeCreacionValida);
-                                                    cmd.Parameters.AddWithValue("@Estado", estadoValido);
-                                                    cmd.ExecuteNonQuery();
-                                                }
-                                        }
-  
-                                 }
-                                    linea++;
-                                }
-                            }
-
+                        lblResultado.Text = "Se encontraron los siguientes problemas"+ allRowErrors;
                     }
-                    catch (Exception exc)
+                    else
                     {
-                        lblResultado.Text= exc.Message;
-                        allRowErrors.Add($"Error general al procesar el archivo : {exc.Message}");
+                        lblResultado.Text = "¡Importación de usuarios completada exitosamente!";
                     }
-
 
                 }
                 else if (tuArchivo.FileName.Contains(".xls"))

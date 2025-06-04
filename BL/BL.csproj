@@ -77,6 +77,8 @@
     <Compile Include="Common\MessageResponse.cs" />
     <Compile Include="Common\ValidationResultUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServicioImportacion\IUsuarioImportService.cs" />
+    <Compile Include="ServicioImportacion\UsuarioImportService.cs" />
     <Compile Include="Servicio\IUsuarioService.cs" />
     <Compile Include="Servicio\UsuarioService.cs" />
     <Compile Include="Common\ValidationBd.cs" />
