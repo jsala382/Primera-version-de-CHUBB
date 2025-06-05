@@ -77,8 +77,10 @@
     <Compile Include="Common\MessageResponse.cs" />
     <Compile Include="Common\ValidationResultUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServicioImportacion\IUsuarioImportService.cs" />
-    <Compile Include="ServicioImportacion\UsuarioImportService.cs" />
+    <Compile Include="ServicioImportacion\IUsuarioImportServiceTxt.cs" />
+    <Compile Include="ServicioImportacion\IUsuarioImportServiceXls.cs" />
+    <Compile Include="ServicioImportacion\UsuarioImportServiceTxt.cs" />
+    <Compile Include="ServicioImportacion\UsuarioImportServiceXls.cs" />
     <Compile Include="Servicio\IUsuarioService.cs" />
     <Compile Include="Servicio\UsuarioService.cs" />
     <Compile Include="Common\ValidationBd.cs" />

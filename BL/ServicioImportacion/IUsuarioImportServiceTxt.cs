@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BL.ServicioImportacion
 {
-    public interface IUsuarioImportService
+    public interface IUsuarioImportServiceTxt
     {
         List<string> ImportUsuarioDesdeTxt(Stream fileStream );
     }

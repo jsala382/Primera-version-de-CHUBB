@@ -14,12 +14,12 @@ using System.Threading.Tasks;
 
 namespace BL.ServicioImportacion
 {
-    public class UsuarioImportService : IUsuarioImportService
+    public class UsuarioImportServiceTxt : IUsuarioImportServiceTxt
     {
         private readonly UsuarioRepository _usuarioRepository;
         private readonly ValidationBd _validationBd;
 
-        public UsuarioImportService()
+        public UsuarioImportServiceTxt()
         {
             _usuarioRepository = new UsuarioRepository();
             _validationBd = new ValidationBd();
